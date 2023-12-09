@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Star Citizen';
+    src: url('StarCitizen.woff2');
+}
+
+html {
+    font-family: 'Star Citizen';
+    user-select: none; 
+}
+
+body {
+    -webkit-app-region: drag;
+}
+
+button {
+    -webkit-app-region: no-drag;
+}
+
+input {
+    -webkit-app-region: no-drag;
+}
+
+main {
+    -webkit-app-region: no-drag; 
+}
+
+#toolbar {
+    -webkit-app-region: drag; 
+}

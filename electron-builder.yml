@@ -1,0 +1,24 @@
+appId: com.factionforge.3innovative
+productName: Faction Forge
+copyright: Copyright © 2024 3Innovative
+directories:
+  output: dist
+  buildResources: resources
+win:
+  target: nsis
+  # verifyUpdateCodeSignature: false
+# publish:
+#   provider: ftp
+#   host: gator4169.hostgator.com
+#   port: 21
+#   secure: false # Set to true if using FTPS (explicit or implicit)
+#   user: ffupdate@3innovative.com
+#   password: 71fb95a5ca5bd080a472fefb776c16d5f160d6f0
+#   path: /
+#   url: "https://meetsusan.net/ffupdater"
+#   channel: latest
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
